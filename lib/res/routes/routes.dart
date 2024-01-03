@@ -22,6 +22,7 @@ class AppRoutes{
     GetPage(name: RoutesName.home,
         page: () => Home(),
         transition: Transition.circularReveal ,
+        
         transitionDuration: Duration(milliseconds: 250))
     
   ];

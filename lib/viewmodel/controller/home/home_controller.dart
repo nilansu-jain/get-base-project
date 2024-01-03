@@ -37,7 +37,7 @@ class HomeController extends GetxController{
       setUserListModel(value);
     }
     ).onError((error, stackTrace) {
-      print('error >>> $     ');
+      print('error >>> $error   ');
       print('stacktrace >>>>> $stackTrace');
       setError(error.toString());
       setRxRequestStatus(Status.ERROR);
